@@ -5,6 +5,13 @@ $APPLICATION->SetTitle("Мебельная компания");
 Это изменение добавленное уже на локальной машине в ветке main
 </p><p>
 <h1 style="color: red;">ССылка на репозиторий <a href="https://github.com/naysy-sx/kss-server/tree/main">kss-server</a></h1>
+<hr>
+
+<h2>Проверка деплоя</h2>
+
+<hr>
+
+
 <h3>И снова здравствуйте</h3>
 <?$APPLICATION->IncludeComponent("bitrix:furniture.catalog.index", "", array(
 	"IBLOCK_TYPE" => "products",
