@@ -19,6 +19,6 @@ jobs:
           username: root
           key: ${{ secrets.DEPLOY_KEY }}
           script: |
-            cd /path/to/project
+            cd /home/bitrix/www
             git pull origin main
             echo "Deployment successful!"
