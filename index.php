@@ -1,6 +1,10 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Мебельная компания");
+
+dd(\Bitrix\Main\Config\Configuration::getValue('exception_handling'));
+
+
 ?><p>
 Это изменение добавленное уже на локальной машине в ветке main
 </p><p>
@@ -10,10 +14,14 @@ $APPLICATION->SetTitle("Мебельная компания");
 <h2>Проверка деплоя</h2>
 <p>Вторая проверка</p>
 <p>Третья проверка 4</p>
+<p>ghjdth</p>
+<p>ещё раз</p>
 <p>ещё раз</p>
 
 <hr>
 
+<hr>
+<div></div>
 
 <h3>И снова здравствуйте</h3>
 <?$APPLICATION->IncludeComponent("bitrix:furniture.catalog.index", "", array(
