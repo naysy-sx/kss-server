@@ -1,3 +1,2 @@
 <?
-$sSectionName="kss";
-?>
+$sSectionName = "kss";

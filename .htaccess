@@ -1,3 +1,6 @@
+RewriteEngine On
+RewriteRule ^$ /kss/ [L,R=301]
+
 Options -Indexes 
 ErrorDocument 404 /404.php
 
