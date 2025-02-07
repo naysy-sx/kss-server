@@ -18,6 +18,8 @@ dd(\Bitrix\Main\Config\Configuration::getValue('exception_handling'));
 <p>ещё раз</p>
 <p>ещё раз</p>
 
+на всякий
+
 <hr>
 
 <hr>
