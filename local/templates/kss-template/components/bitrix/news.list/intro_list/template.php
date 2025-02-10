@@ -20,3 +20,8 @@
     </li>
   </ul>
 <?php endforeach; ?>
+<? 
+  echo "<pre>";
+      print_r($arItem);
+  echo "</pre>";
+?>
