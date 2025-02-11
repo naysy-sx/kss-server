@@ -34,5 +34,3 @@ $this->setFrameMode(true);
   $component,
   array("HIDE_ICONS" => "Y")
 ); ?>
-
-<h1>SECT</h1>
